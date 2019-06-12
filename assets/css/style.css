@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
+
+/* -------------------------------------Colours */
+
+.bg-color-bandnamedesc {
+    background-color: red;
+}
+
+.ui-menu-color-home {
+    background-color: darkgrey;
+}
+
+.ui-menu-color-music {
+    background-color: darkgreen;
+}
+
+.ui-menu-color-bio {
+    background-color: navy;
+}
+
+.ui-menu-color-store {
+    background-color: black;
+}
+
+
+
+
+/* -------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.col-heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/OFAC new logo long.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 180px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.bandname {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: black;
+}
+
+.banddescription {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 40px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 140px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 46px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
