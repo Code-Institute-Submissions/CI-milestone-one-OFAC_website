@@ -2,6 +2,9 @@
 
 /* -------------------------------------Colours */
 
+.header-color {
+    background: black;
+}
 .bg-color-bandnamedesc {
     background-color: red;
 }
@@ -110,9 +113,10 @@ header {
     letter-spacing: 2px;
     padding-bottom: 20px;
 }
+
 /* -------------------------------------Hover.css */
 
-.hvr-shutter-in-vertical:before {
+.hvr-shutter-in-vertical:hover {
     background: rgba(0, 0, 0, 0.2);
     height: 140px;
 }
