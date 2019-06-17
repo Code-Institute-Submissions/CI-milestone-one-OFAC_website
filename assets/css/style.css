@@ -5,6 +5,7 @@
 .header-color {
     background: black;
 }
+
 .bg-color-bandnamedesc {
     background-color: red;
 }
@@ -25,8 +26,28 @@
     background-color: black;
 }
 
+/* -------------------------------------Special paddings/margins/text */
 
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
 
 /* -------------------------------------Heading */
 
@@ -119,4 +140,82 @@ header {
 .hvr-shutter-in-vertical:hover {
     background: rgba(0, 0, 0, 0.2);
     height: 140px;
+}
+
+
+/* -------------------------------------Footer */
+
+footer {
+    padding-top: 5px;
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.contact i {
+    font-size :30px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.contact i:hover {
+    color: green;
+}
+
+.social-links {
+    padding-top: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: darkgreen;
+}
+
+.music-links {
+     padding-top: 10px;
+}
+
+.music-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.music-links li a i:hover {
+    background: blue;
+}
+
+#footer-details {
+    padding: 20px;
 }
