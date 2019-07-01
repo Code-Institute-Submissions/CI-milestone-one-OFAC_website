@@ -2,12 +2,31 @@
 
 /* -------------------------------------Colours */
 
+.nav-color-bg {
+    background: black;
+}
+.nav-header-color {
+    background: black;
+}
+.button-color {
+    color: white;
+    
+}
+
 .header-color {
     background: black;
 }
 
 .bg-color-bandnamedesc {
     background-color: red;
+}
+
+.bg-color-bio {
+    background-color: red;
+}
+
+.bg-color-discog {
+    background-color: grey;
 }
 
 .ui-menu-color-home {
@@ -49,10 +68,61 @@ h4 {
     display: inline-block;
 }
 
+.section-column {
+    display: table-cell;
+    padding 0 30px 30px;
+    float: none;
+}
+
+.about-heading {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    color: #fafafa;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+
+.members-heading {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    color: #fafafa;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    text-align: left;
+    
+}
+
+.discog-heading {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    color: #fafafa;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center
+    
+}
+
+.bio-para {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.bio-link {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: black;
+    text-decoration: bold;
+}
+
+
 /* -------------------------------------Heading */
 
 header {
     margin: 0;
+    
 }
 
 .col-heading {
@@ -64,6 +134,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    
     min-height: 180px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -72,9 +143,18 @@ header {
 
 .bandname {
     font-family: "Quicksand", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 46px;
     margin-top: 50px;
+    color: black;
+}
+
+.music-text {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+    margin-top: 50px;
+    margin-bottom: 25px;
     color: black;
 }
 
@@ -218,4 +298,58 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ------------------------------------- bio */
+
+.discog-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 2px solid;
+    margin-left: 10px;
+}
+
+.discog-item p {
+    padding: 0;
+    margin: 10 0;
+}
+
+.discog-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2em;
+    top: 3em;
+    display: block;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    color: black;
+    margin-bottom: 10px
+}
+
+.discog-item:after {
+    width: 15px;
+    height: 15px;
+    display: block;
+    top: 2.5em;
+    position: absolute;
+    left: -8px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.discog-links {
+    text-decoration:none;
+    color: #fafafa;
+}
+
+/* ------------------------------------- music */
+
+.stream-embed {
+    padding: 15px;
+    margin: 0 auto;
 }
