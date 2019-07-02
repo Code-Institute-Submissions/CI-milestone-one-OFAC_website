@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Indie+Flower:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:100,200,300,400,500,600,700|Rokkitt:100,200,300,400,500,600,700');
 
 /* -------------------------------------Colours */
 
@@ -18,31 +18,38 @@
 }
 
 .bg-color-bandnamedesc {
-    background-color: red;
+    background-color: #C03221;
 }
 
 .bg-color-bio {
-    background-color: red;
+    background-color: #C03221;
 }
 
 .bg-color-discog {
     background-color: grey;
 }
+.bg-color-music {
+    background-color: #2A2D34;
+}
+
+.stream-color {
+    background-color: #2A2D34;
+}
 
 .ui-menu-color-home {
-    background-color: darkgrey;
+    background-color: #357266;
 }
 
 .ui-menu-color-music {
-    background-color: darkgreen;
+    background-color: #2F323A;
 }
 
 .ui-menu-color-bio {
-    background-color: navy;
+    background-color: #357266;
 }
 
 .ui-menu-color-store {
-    background-color: black;
+    background-color: #2F323A;
 }
 
 /* -------------------------------------Special paddings/margins/text */
@@ -70,7 +77,7 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding 0 30px 30px;
+    padding: 0 30px 30px;
     float: none;
 }
 
@@ -122,6 +129,8 @@ h4 {
 
 header {
     margin: 0;
+    padding-bottom: 25px;
+    background-color: black;
     
 }
 
@@ -129,6 +138,10 @@ header {
     margin-left: 50px;
 }
 
+.col-heading-store {
+    margin-left: 50px;
+    margin-bottom: 25px ;
+}
 .logo {
     background: url("../images/OFAC new logo long.png");
     background-position: center;
@@ -141,12 +154,15 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+/* -------------------------------------Article */
+
 .bandname {
     font-family: "Quicksand", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 46px;
     margin-top: 50px;
     color: black;
+    text-align: center;
 }
 
 .music-text {
@@ -159,12 +175,33 @@ header {
 }
 
 .banddescription {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Rokkitt', cursive;
     font-weight: 200;
     font-size: 35px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #fff
+    color: #fff;
+    text-align: center;
+}
+
+.main-article {
+    margin:0;
+    padding:0;
+}
+
+.music-article {
+    margin:0;
+    padding:0;
+}
+
+.bio-article {
+    margin:0;
+    padding:0;
+}
+
+.store-article {
+    margin:0;
+    padding:0;
 }
 
 .list-inline-item:not(:last-child) {
@@ -193,14 +230,14 @@ header {
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #fff;
+    color: #8D8F93;
     height: 140px;
 }
 
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #fafafa;
+    color: #8D8F93;
     font-size: 46px;
 }
 
@@ -218,8 +255,16 @@ header {
 /* -------------------------------------Hover.css */
 
 .hvr-shutter-in-vertical:hover {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0);
     height: 140px;
+   
+    
+}
+.hvr-shutter-in-vertical:after {
+    transition: #8D8F93;
+    height: 140px;
+   
+    
 }
 
 
@@ -227,10 +272,22 @@ header {
 
 footer {
     padding-top: 5px;
-    background-color: #525252;
+    background-color: #7A7C81;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.ft-contact {
+    
+}
+
+.ft-social {
+    
+}
+
+.ft-music {
+    
 }
 
 .contact i {
@@ -245,7 +302,7 @@ footer {
 }
 
 .contact i:hover {
-    color: green;
+    color: #61D3BC;
 }
 
 .social-links {
@@ -260,8 +317,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #61D3BC;
+    background: #2A2D34;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -269,7 +326,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: darkgreen;
+    background: #8D8F93;
 }
 
 .music-links {
@@ -284,8 +341,8 @@ footer {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
+    color: #61D3BC;
+    background: #2A2D34;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -293,7 +350,7 @@ footer {
 }
 
 .music-links li a i:hover {
-    background: blue;
+    background: #8D8F93;
 }
 
 #footer-details {
