@@ -68,34 +68,41 @@
 
     </html>
 
+    <div class="modal" tabindex="-1" role="dialog" id="contact-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Message Only Fumes & Corpses</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Messsage:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Start Typing..."></textarea>
+                        </div>
+                    </form>
+                    <button type="submit" class="btn btn-outline-dark">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub ft-contact">Contact</h5>
-                <p class="inline-block">Click here to contact Only Fumes & Corpses</p>
-                <a href="#" target="_blank" class="contact">
-                   <i class="fa fa-envelope-square" aria-hidden="true">
-                       <div class="modal" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-                   </i>
+                <p class="inline-block">Click to contact Only Fumes & Corpses</p>
                 <span class="sr-only">Contact Link</span>
+                <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#contact-modal">Contact</button>
                 </a>
             </div>
             <div class="col-sm-4">
