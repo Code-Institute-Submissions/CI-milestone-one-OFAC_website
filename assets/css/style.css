@@ -38,6 +38,7 @@
 
 .ui-menu-color-home {
     background-color: #357266;
+    
 }
 
 .ui-menu-color-music {
@@ -50,6 +51,13 @@
 
 .ui-menu-color-store {
     background-color: #2F323A;
+}
+.icon-color {
+     color: #61D3BC;
+}
+
+.mainlinks li a i {
+    color: #darkgrey;
 }
 
 /* -------------------------------------Special paddings/margins/text */
@@ -418,19 +426,25 @@ footer {
 }
 
 /*--------------------------------------Cookie Consent Begin*/
+
+.alert {
+    margin: 0;
+    padding: 0;
+}
+
 #cookieConsent {
-    background-color: rgba(20,20,20,0.8);
+    background-color: black;
     min-height: 26px;
     font-size: 14px;
     color: #ccc;
     line-height: 26px;
-    padding: 8px 0 8px 30px;
+    padding: 8px;
     font-family: "Quicksand",sans-serif;
-    position: static;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 9999;
+    
 }
 
 #cookieConsent a {
@@ -443,7 +457,8 @@ footer {
     cursor: pointer;
     height: 20px;
     width: 20px;
-    margin: -15px 0 0 0;
+    margin: 0;
+    padding: 0;
     font-weight: bold;
 }
 #closeCookieConsent:hover {
@@ -455,7 +470,7 @@ footer {
     color: #000;
     display: inline-block;
     border-radius: 5px;
-    padding: 0 20px;
+    padding: 0;
     cursor: pointer;
    
     margin: 0 60px 0 10px;
@@ -463,4 +478,23 @@ footer {
 #cookieConsent a.cookieConsentOK:hover {
     background-color: #2B5E54;
 }
+.cookie-button {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
 
+button.close.cookie-button {
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------------Carousel*/
+#carouselExampleIndicators {
+    
+}
+
+.carousel-item {
+    max-width: 
+    max-height: 
+}
