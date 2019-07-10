@@ -492,29 +492,35 @@ button.close.cookie-button {
 /*--------------------------------------Carousel*/
 
 .ofac-slides{
-    background-color: black;
+    background: black;
 }
 
 #carouselExampleIndicators {
-    width: 600px;
     position: relative;
-    color: black;
+    text-align: center;
 }
 
 .carousel-item {
-    background-position: center center;
+   
 }
 
-.carousel-inner img {       
-   display:block;
-   height: auto; 
-   max-width: 100%;
+.carousel-inner img {    
+   
+   display: block;
+   margin: 0 auto;
+ 
+}
+
+.carousel-control-prev {
+    position: relative;
+}
+
+.carousel-control-next {
+    position: relative;
 }
 
 .slide-one {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+   
     max-height: 600px;
     max-width: 600px;
    
