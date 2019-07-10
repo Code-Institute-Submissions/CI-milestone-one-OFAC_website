@@ -149,7 +149,8 @@ header {
 }
 
 .col-heading {
-    margin-left: 50px;
+    
+    padding: 0;
 }
 
 .col-heading-store {
@@ -495,33 +496,54 @@ button.close.cookie-button {
     background: black;
 }
 
+.carousel slide {
+   
+}
+
 #carouselExampleIndicators {
     position: relative;
-    text-align: center;
+    
 }
+
+
+		
+	
+
 
 .carousel-item {
-   
+  
 }
 
-.carousel-inner img {    
-   
-   display: block;
-   margin: 0 auto;
- 
-}
 
 .carousel-control-prev {
-    position: relative;
+   
 }
 
 .carousel-control-next {
-    position: relative;
+   
 }
 
 .slide-one {
-   
-    max-height: 600px;
+    height: 400px;
     max-width: 600px;
-   
+}
+
+.slide-two {
+   height: 400px;
+    max-width: 600px;
+}
+
+.slide-three {
+    height: 400px;
+    max-width: 600px;
+}
+
+.slide-four {
+    height: 400px;
+    max-width: 600px;
+}
+
+.slide-five {
+    height: 400px;
+    max-width: 600px;
 }
