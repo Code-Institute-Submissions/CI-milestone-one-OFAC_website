@@ -10,7 +10,6 @@
 }
 .button-color {
     color: white;
-    
 }
 
 .header-color {
@@ -38,7 +37,6 @@
 
 .ui-menu-color-home {
     background-color: #357266;
-    
 }
 
 .ui-menu-color-music {
@@ -52,12 +50,13 @@
 .ui-menu-color-store {
     background-color: #2F323A;
 }
+
 .icon-color {
-     color: #61D3BC;
+    color: #61D3BC;
 }
 
 .mainlinks li a i {
-    color: #darkgrey;
+    color: darkgrey;
 }
 
 /* -------------------------------------Special paddings/margins/text */
@@ -96,7 +95,6 @@ h4 {
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
-    
 }
 
 .members-heading {
@@ -106,7 +104,6 @@ h4 {
     margin-top: 25px;
     margin-bottom: 5px;
     text-align: left;
-    
 }
 
 .discog-heading {
@@ -116,7 +113,6 @@ h4 {
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center
-    
 }
 
 .bio-para {
@@ -145,11 +141,9 @@ header {
     margin: 0;
     padding-bottom: 25px;
     background-color: black;
-    
 }
 
 .col-heading {
-    
     padding: 0;
 }
 
@@ -157,12 +151,12 @@ header {
     margin-left: 50px;
     margin-bottom: 25px ;
 }
+
 .logo {
     background: url("../images/OFAC new logo long.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    
     min-height: 180px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -272,16 +266,12 @@ header {
 .hvr-shutter-in-vertical:hover {
     background: rgba(0, 0, 0, 0);
     height: 140px;
-   
-    
 }
+
 .hvr-shutter-in-vertical:after {
     transition: #8D8F93;
     height: 140px;
-   
-    
 }
-
 
 /* -------------------------------------Footer */
 
@@ -445,15 +435,14 @@ footer {
     bottom: 0;
     left: 0;
     right: 0;
-    
 }
 
 #cookieConsent a {
     color: #4B8EE7;
     text-decoration: none;
 }
+
 #closeCookieConsent {
-    
     display: inline-block;
     cursor: pointer;
     height: 20px;
@@ -462,10 +451,11 @@ footer {
     padding: 0;
     font-weight: bold;
 }
+
 #closeCookieConsent:hover {
     color: #FFF;
-    
 }
+
 #cookieConsent a.cookieConsentOK {
     background-color: #61D3BC;
     color: #000;
@@ -473,19 +463,19 @@ footer {
     border-radius: 5px;
     padding: 0;
     cursor: pointer;
-   
     margin: 0 60px 0 10px;
 }
+
 #cookieConsent a.cookieConsentOK:hover {
     background-color: #2B5E54;
 }
+
 .cookie-button {
-    margin: 0;
     padding: 0;
     display: inline;
 }
 
-button.close.cookie-button {
+.close.cookie-button {
     margin: 0;
     padding: 0;
 }
@@ -502,18 +492,11 @@ button.close.cookie-button {
 
 #carouselExampleIndicators {
     position: relative;
-    
 }
-
-
-		
-	
-
 
 .carousel-item {
   
 }
-
 
 .carousel-control-prev {
    
