@@ -481,24 +481,36 @@ footer {
 
 /*--------------------------------------Carousel*/
 
-.carousel_wrapper {
-    position: relative;
-    min-height: 200px;
+.carousel-inner > .carousel-item {
+  height: 100vh;
 }
+
+.carousel-inner > .carousel-item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 800px;
+  width: auto;
+}
+
 .ofac-slides{
     background: black;
 }
 
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: block !important;
-}
-
-.carousel-inner img {
-  margin: auto;
-}
-
-.carousel slide {
-   
 }
 
 #carouselExampleIndicators {
@@ -516,4 +528,3 @@ footer {
 .carousel-control-next {
    
 }
-
