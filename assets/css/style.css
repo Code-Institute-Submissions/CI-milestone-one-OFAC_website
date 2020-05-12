@@ -134,7 +134,6 @@ h4 {
     color: black;
 }
 
-
 /* -------------------------------------Heading */
 
 header {
@@ -331,7 +330,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #8D8F93;
+    background: #afe9dd;
 }
 
 .music-links {
@@ -355,7 +354,7 @@ footer {
 }
 
 .music-links li a i:hover {
-    background: #8D8F93;
+    background: #bf9ce3;
 }
 
 #footer-details {
@@ -482,8 +481,20 @@ footer {
 
 /*--------------------------------------Carousel*/
 
+.carousel_wrapper {
+    position: relative;
+    min-height: 200px;
+}
 .ofac-slides{
     background: black;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block !important;
+}
+
+.carousel-inner img {
+  margin: auto;
 }
 
 .carousel slide {
@@ -506,27 +517,3 @@ footer {
    
 }
 
-.slide-one {
-    height: 400px;
-    max-width: 600px;
-}
-
-.slide-two {
-   height: 400px;
-    max-width: 600px;
-}
-
-.slide-three {
-    height: 400px;
-    max-width: 600px;
-}
-
-.slide-four {
-    height: 400px;
-    max-width: 600px;
-}
-
-.slide-five {
-    height: 400px;
-    max-width: 600px;
-}
