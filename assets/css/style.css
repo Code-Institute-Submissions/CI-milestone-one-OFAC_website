@@ -27,6 +27,11 @@
 .bg-color-discog {
     background-color: grey;
 }
+
+.bg-color-reviews {
+    background-color: #61D3BC ;
+}
+
 .bg-color-music {
     background-color: #2A2D34;
 }
@@ -173,6 +178,7 @@ header {
     font-weight: 500;
     font-size: 46px;
     margin-top: 50px;
+    padding:10px;
     color: black;
     text-align: center;
 }
@@ -377,10 +383,6 @@ footer {
 
 /* ------------------------------------- music */
 
-.music-image {
-    
-}
-
 .bandcamp-streams {
     padding-top: 15px;
     padding-bottom: 10px;
@@ -443,6 +445,11 @@ footer {
     color: #fafafa;
 }
 
+.reviews {
+    padding: 1.5em;
+}
+
+
 /* ------------------------------------- store */
 
 .bigcartel {
@@ -453,6 +460,10 @@ footer {
 .bigcarimg {
     margin:auto;
     padding: 15px;
+}
+
+.bigcarimg:hover {
+    opacity:0.5;
 }
 
 /*--------------------------------------Cookie Consent Begin*/
