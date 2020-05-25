@@ -236,7 +236,7 @@ header {
 }
 
 .menuitem a {
-    width: 100%;
+    width: 101%;
     text-decoration: none;
     color: #8D8F93;
     height: 140px;
@@ -369,6 +369,17 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* ------------------------------------- music */
+
+.music-image {
+    
+}
+
+.bandcamp-streams {
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 /* ------------------------------------- bio */
