@@ -17,11 +17,11 @@
 }
 
 .bg-color-bandnamedesc {
-    background-color: #C03221;
+    background-color: #F52E2E;
 }
 
 .bg-color-bio {
-    background-color: #C03221;
+    background-color: #F52E2E;
 }
 
 .bg-color-discog {
@@ -56,6 +56,10 @@
 }
 
 .mainlinks li a i {
+    color: darkgrey;
+}
+
+.bigcartel_bgcolour {
     color: darkgrey;
 }
 
@@ -382,7 +386,16 @@ footer {
     padding-bottom: 10px;
 }
 
+.stream-embed {
+    padding: 15px;
+    margin: 0 auto;
+}
+
 /* ------------------------------------- bio */
+
+.bio-section{
+    padding: 0;
+}
 
 .discog-item {
     padding: 4em 2em 0em 2em;
@@ -390,6 +403,7 @@ footer {
     color: #fafafa;
     border-left: 2px solid;
     margin-left: 10px;
+    column-span: 100%;
 }
 
 .discog-item p {
@@ -416,7 +430,7 @@ footer {
     width: 15px;
     height: 15px;
     display: block;
-    top: 2.5em;
+    top: 4.5em;
     position: absolute;
     left: -8px;
     border-radius: 12px;
@@ -429,11 +443,11 @@ footer {
     color: #fafafa;
 }
 
-/* ------------------------------------- music */
+/* ------------------------------------- store */
 
-.stream-embed {
-    padding: 15px;
-    margin: 0 auto;
+.bigcartel {
+    margin: 15px;
+    padding: 2em;
 }
 
 /*--------------------------------------Cookie Consent Begin*/
