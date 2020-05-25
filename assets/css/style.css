@@ -29,7 +29,7 @@
 }
 
 .bg-color-reviews {
-    background-color: #61D3BC ;
+    background-color: #2A2D34 ;
 }
 
 .bg-color-music {
@@ -135,6 +135,12 @@ h4 {
     font-weight: 400;
     color: #61D3BC;
     text-decoration: bold;
+}
+
+.review-para {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
 }
 
 #contact-modal {
@@ -449,6 +455,22 @@ footer {
     padding: 1.5em;
 }
 
+.hvrimg{
+   display: none;
+   height:200px;
+   width:200px;
+}
+
+span:hover + .hvrimg{
+   display: block;
+   text-decoration:none;
+   color: #fafafa;
+}
+
+.discog-links:hover{
+   text-decoration:none;
+   color: #61D3BC;
+}
 
 /* ------------------------------------- store */
 
