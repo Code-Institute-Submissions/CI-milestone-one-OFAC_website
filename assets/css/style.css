@@ -25,7 +25,7 @@
 }
 
 .bg-color-discog {
-    background-color: grey;
+    background-color: rgb(3, 2, 2);
 }
 
 .bg-color-reviews {
@@ -37,7 +37,7 @@
 }
 
 .stream-color {
-    background-color: #2A2D34;
+    background-color: black;
 }
 
 .ui-menu-color-home {
@@ -61,7 +61,7 @@
 }
 
 .mainlinks li a i {
-    color: darkgrey;
+    color: rgb(138, 137, 137);
 }
 
 .bgcarcolour {
@@ -387,7 +387,22 @@ footer {
     padding: 20px;
 }
 
-/* ------------------------------------- music */
+/* -------------------------------------Home */
+
+.youtube-section {
+    margin: 0;
+    padding: 0;
+}
+
+.youtube-embed {
+    background: black;
+    margin: 0 auto;
+    padding: 2em;
+    padding-top:4em;
+    width: auto;
+}
+
+/* -------------------------------------Music */
 
 .bandcamp-streams {
     padding-top: 15px;
@@ -399,7 +414,7 @@ footer {
     margin: 0 auto;
 }
 
-/* ------------------------------------- bio */
+/* -------------------------------------Bio */
 
 .bio-section{
     padding: 0;
@@ -430,7 +445,7 @@ footer {
     font-size: 1em;
     padding: 0;
     margin: 0;
-    color: black;
+    color: white;
     margin-bottom: 10px
 }
 
@@ -472,7 +487,7 @@ span:hover + .hvrimg{
    color: #61D3BC;
 }
 
-/* ------------------------------------- store */
+/* -------------------------------------Store */
 
 .bigcartel {
     margin: 0;
