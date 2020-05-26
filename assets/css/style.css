@@ -61,7 +61,8 @@
 }
 
 .mainlinks li a i {
-    color: rgb(138, 137, 137);
+    color: black;
+    box-shadow: 2px;
 }
 
 .bgcarcolour {
@@ -286,13 +287,18 @@ header {
     box-shadow: 0 0 1px rgba(0,0,0,0);
     position: relative;
     background: rgba(0, 0, 0, 0);
-    
 }
 
 .hvr-shutter-in-vertical:hover {
     background: rgba(0, 0, 0, 0);
     height: 140px;
     border: none;
+}
+
+.hvr-shutter-in-vertical:before {
+    background: #8D8F93;
+    height: 140px;
+    border:none;
 }
 
 .hvr-shutter-in-vertical:after {
@@ -312,15 +318,17 @@ footer {
 }
 
 .ft-contact {
-    
+    text-align:center
 }
 
 .ft-social {
-    
+    padding-left: 2em;
+    text-align:center;
 }
 
 .ft-music {
-    
+    padding-left: 2em;
+    text-align:center;
 }
 
 .contact i {
@@ -384,7 +392,6 @@ footer {
 
 .music-links li a i:hover {
     background: #F52E2E;
-;
 }
 
 #footer-details {
