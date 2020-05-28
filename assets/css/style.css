@@ -625,11 +625,23 @@ span:hover + .hvrimg{
  #ofac_youtube{
      max-width: 75%;
  }
+ #ofac_pagelinks{
+     display:none;
+ }
+ #ofac_bandcamp {
+     float:left;
+ }
 }
 
 @media screen and (max-width: 1000px){
+ #ofac_pagelinks{
+     display:none;
+ } 
  #ofac_carousel .carousel-inner > .carousel-item {
     height: 350px;
     overflow:hidden;
-}
  }
+}
+@media screen and (max-width: 2000px){
+
+}
