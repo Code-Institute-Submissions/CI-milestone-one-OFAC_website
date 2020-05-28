@@ -62,7 +62,6 @@
 
 .mainlinks li a i {
     color: black;
-    box-shadow: 2px;
 }
 
 .bgcarcolour {
@@ -135,7 +134,7 @@ h4 {
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
     color: #61D3BC;
-    text-decoration: bold;
+    text-decoration: none;
 }
 
 .review-para {
@@ -302,7 +301,6 @@ header {
 }
 
 .hvr-shutter-in-vertical:after {
-    transition: #8D8F93;
     height: 140px;
     border:none;
 }
@@ -437,19 +435,18 @@ footer {
     color: #fafafa;
     border-left: 2px solid;
     margin-left: 10px;
-    column-span: 100%;
 }
 
 .discog-item p {
     padding: 0;
-    margin: 10 0;
+    margin: 5px 0;
 }
 
 .discog-item:before {
     content: attr(data-dates);
     position: absolute;
     left: 2em;
-    top: 3em;
+    top: 2.5em;
     display: block;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
@@ -641,6 +638,7 @@ span:hover + .hvrimg{
     height: 350px;
     overflow:hidden;
  }
+ 
 }
 @media screen and (max-width: 767px){
  #ofac_members {
@@ -662,4 +660,18 @@ span:hover + .hvrimg{
 #ofac_discog .hvrimg {
     display:none;
 }
+}
+@media screen and (min-width: 1518px){
+    #ofac_discog .discog-item {
+     text-align: left;
+     border: 2px solid;
+     margin: 50px;
+     padding: 3em;
+    }
+    #ofac_discog .discog-item:after {
+     display: none;
+    }
+    #ofac_discog .discog-item:before {
+     display: none;
+    }
 }
