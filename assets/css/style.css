@@ -616,14 +616,20 @@ span:hover + .hvrimg{
     position: relative;
 }
 
-.carousel-item {
-  
+/*--------------------------------------Media Queries*/
+
+@media screen and (max-width: 600px){
+ #ofac_carousel{
+     display:none;
+ }
+ #ofac_youtube{
+     max-width: 75%;
+ }
 }
 
-.carousel-control-prev {
-   
+@media screen and (max-width: 1000px){
+ #ofac_carousel .carousel-inner > .carousel-item {
+    height: 350px;
+    overflow:hidden;
 }
-
-.carousel-control-next {
-   
-}
+ }
