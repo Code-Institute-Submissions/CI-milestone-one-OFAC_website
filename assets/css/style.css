@@ -642,6 +642,24 @@ span:hover + .hvrimg{
     overflow:hidden;
  }
 }
-@media screen and (max-width: 2000px){
-
+@media screen and (max-width: 767px){
+ #ofac_members {
+     margin: 0 auto;
+     text-align:center;
+ }
+ #ofac_members_header {
+     margin: 0 auto;
+     text-align:center;
+     padding:20px;
+ }
+ #ofac_discog{
+     margin: 0 auto;
+     text-align:left;
+ }
+#ofac_discog .discog-item:before {
+    display:none;
+}
+#ofac_discog .hvrimg {
+    display:none;
+}
 }
