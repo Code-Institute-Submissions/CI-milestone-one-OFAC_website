@@ -1,65 +1,157 @@
 # Denis Lymer Milestone Project 1 - Band Website for Only Fumes & Corpses
-One or two paragraphs providing an overview of your project.
+When it came to picking a project for my Milestone One it was a very easy decision for me. I spent many years playing in a band and while we had a broad social media presence, we never had an official website. 
 
-Essentially, this part is your sales pitch.
+The band, Only Fumes & Corpses, is on hiatus at the moment but our social media channels are still active so this presented the perfect opportunity for me to create a website for this project which in the future would also serve a practical, real-world use.
+I wanted to create a fully functioning website for the band, with working links and page structures, similar to websites of currently active professional bands.
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Link to the website
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+https://menacethedenis.github.io/CI-milestone-one-OFAC_website/
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+## Link to the github repository
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+https://github.com/menacethedenis/CI-milestone-one-OFAC_website
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+# UX
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+I wanted to design and create a website that would be useful for fans of the band in terms of ease of access to music, videos, information and merchandise in a clean, stylish layout. And also useful for the band themselves in terms of presenting aspects and products they may want to focus on, and making themselves accessible and contactable.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
+### **User Stories**
+
+Putting myself in the shoes of both website visitors and the band I created the following user stories:
+* As a visitor I want to be able to easily access important information about the band
+* As a visitor I want to be able to stream audio and video of the bands music by clicking on links and embeds
+* As a visitor I want to be able to contact the band by clicking on a form
+* As a visitor I want to be able to download the band's music by clicking a link
+* As a visitor I want to be able to view and purchase the band's merchandise from the website
+* As a band member I want to be able to present important information prominently
+* As a band member I want to be able to receive messages from fans or booking agents 
+
+### **Wire frames**
+
+Using the Balsamiq desktop app I created the following wireframes as a guideline for my page designs, focusing on mobile first design and then a general desktop layout. Before drawing these up I looked at many websites of some of my favourite bands and made notes of features, layouts and presentations I admired.
+
+Index/Home page
+ 
+ <img src="assets/wireframes/index - mobile.PNG" width=120>
+
+Music page
+ 
+ <img src="assets/wireframes/music - mobile.PNG" width=120>
+
+Bio page
+ 
+ <img src="assets/wireframes/bio - mobile.PNG" width=120>
+
+Store page
+ 
+ <img src="assets/wireframes/store - mobile.PNG" width=120>
+
+General desktop layout
+ 
+ <img src="assets/wireframes/desktop.PNG" width=120>
+
+# Features
+
+## Existing Features
+
+### **General**
+
+* Feature 1: Cookies warning - In line with the recent focus on GDPR and the fact that almost every website you visit flashes a cookies warning nowadays, I decided to include one on the top of the home page. It links to a real privacy policy which I generated online.
+* Feature 2: Navbar burger icon - This is positioned in the top-right of all pages and toggles a vertical list open and closed. I experimented with leaving it open and displaying horizontally at larger viewports but decided to implement a larger menu further down the page instead.
+* Feature 3: Menu bar: On larger viewports a horizontal menu bar appears for ease of access to the different website pages. There are hover transition and colour effects on the items and Font Awesome icons for each.
+* Feature 4: Band logo transition - The main band logo has a fade-in transition.
+* Feature 5: Contact form - The left section of the footer contains a contact button which opens a modal.
+* Feature 6: Social Media links - The middle section of the footer contains Font Awesome icons with working links to the real band Facebook and Twitter accounts, and to the band hashtag on Youtube and instagram. There is a colour change hover effect on the icons.
+* Feature 7: Stream Music links - The right section of the footer contains Font Awesome icons with working links to the band's music on Spotify, Apple Music, Bandcamp and SoundCloud. There is a colour change hover effect on the icons.
+
+### **Home page**
+
+* Feature 8: Carousel - The home page displays a carousel slideshow which automatically transitions images every 5 seconds. There are also direction control buttons to transition the images. On smaller viewports the carousel is hidden as I felt it was unnecessary and cluttering the screen.
+* Feature 9: Video - Beneath the carousel there is a youtube embed of the most recent of the band's releases.
+
+### **Music page**
+
+* Feature 10: Bandcamp embeds - The music page has bandcamp embeds of all the bands releases displayed vertically in reverse chronological order. The user can stream or share music directly from these, or access the band's bandcamp page externally. I experimented with displaying the embeds in columns and rows but preferred the vertical presentation as felt it  focussed atttention on each individual release.
+
+### **Bio page**
+
+* Feature 11: About section - This contains a brief history of the band and a working link to the band's record label website.
+* Feature 12: Discography section - This contains information about the band's releases displayed as a timeline. When a release title is hovered over, the artwork of the release appears. This effect is disabled on smaller viewports. The release dates are hidden on smaller viewports as they were cluttering the display.
+* Feature 13: Review section - This contains excerpts from published reviews of the band.
+
+### **Store page**
+
+* Feature 14: Big Cartel links: This page displays images of band merchandise which is available to purchase from their big cartel webstore. They display horizontally on larger viewports and vertically on smaller viewports. There is a hover opacity effect on each image. I experimented with embedding the big cartel pages but they did not display well so decided images with external links was a better option.
+
+
+## Features Left to Implement
+
+* The ability to record users answers to the cookie disclaimer needs to be added. Currently the warning can be closed with the 'x' in the corner only.
+* The contact form needs to be hooked up on the backend.
+
+# Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+## HTML5 - https://www.w3.org/TR/html52/
+HTML5 was used for the general structuring and positioning on the website
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+## CSS3 - https://www.w3.org/Style/CSS/Overview.en.html
+CSS3 was used to style the website
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+## Bootstrap - https://www.bootstrapcdn.com/
+Bootstrap v4.3.1 was used for mobile-first design and responsiveness, styling, grid layouts and navigation
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+## JQuery - https://jquery.com/
+JQuery was used to deploy javascript functionality with bootstrap.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+## Font Awesome - https://www.bootstrapcdn.com/fontawesome/
+Font Awesome icons were used for the Social Media & Stream Music inks in the footer, and for the menu items in the large menu bar.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+## Google Fonts - https://fonts.google.com/
+Google fonts were used for all the text on the website. The fonts used were Quicksand & Rokkitt.
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+## Git, Gitpod & Github - https://github.com/
+Gitpod was used as the development environment. Git was used to push my work from my local repository to my Github repository. Github hosts the project repository for others to see and the final deployed version of the website.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+# Testing
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+## Manual Testing
+As I was building this project I was ensuring to test the functionality of pagelinks, external links, navigation, features and elements as I was proceeding. At the end of every session I not only checked any new features I had added, but also all my existing features to ensure any changes I had made had not adversely affected other existing features. I used a word document to track features that were not working correctly or that needed minor fixes.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+## Chrome DevTools
+All website pages have been extensively tested for mobile-first responsiveness using Chrome DevTools. I personally checked responsiveness on the following devices:
+* Windows 10 laptop
+* Windows 10 desktop
+* Android 10 phone
+* Android 10 tablet 
+
+I asked friends to check responsiveness on:
+* iMac - MacOS 10.15
+* iPad - iPadOS 13.5
+* iPhone - iOS 13.5
+
+## Responsiveness Issues
+
+* **Carousel** - The varying sizes of the images used in the slideshow were causing the other elements to jump around to accomodate them. I considered using a standard image size to eliminate this but was able to fix the issue with a combination of HTML and CSS positioning and justifying commands.
+* **Youtube Embed** - The video embed on the homepage was displaying poorly on smaller viewports, usually sitting halfway off the screen. this was fixed by adjusting the width and padding settings.
+* **Discography Timeline** - The vertical line broke out into columns and displayed very poorly on medium and large viewports. This was fixed by adding a blank, empty column to the right of the discography column. This served to keep the discography column from expanding too far with responsiveness.
+
+# Deployment
+ The finished website is deployed and can be viewed via Github:
+ https://menacethedenis.github.io/CI-milestone-one-OFAC_website/
+
+# Credits
+## Content
+All images, music and text are copyright and used with the permission of Only Fumes & Corpses and Lockjaw Records. Except the reviews which are reproduced with permission from the authors.
+
+Some websites I used for design inspiration and research included:
+http://epitaph.com/artists/defeater/bio
+https://www.deftones.com/
+http://www.bitchfalcon.com/
+https://www.emmaruthrundle.com/
+https://www.daughtersofficial.com/
+
+## Acknowledgements
+I would like to thank the tutors at the Code Institute and my mentor Spencer Barriball for their outstanding support, advice and encouragement. 
+Thanks also to the Code Institute student care team for  keeping me on track, checking in and always being so understanding, empathetic and helpful.
