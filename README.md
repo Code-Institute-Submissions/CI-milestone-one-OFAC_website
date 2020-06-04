@@ -2,7 +2,7 @@
 When it came to picking a project for my Milestone One it was a very easy decision for me. I spent many years playing in a band and while we had a broad social media presence, we never had an official website. 
 
 The band, Only Fumes & Corpses, is on hiatus at the moment but our social media channels are still active so this presented the perfect opportunity for me to create a website for this project which in the future would also serve a practical, real-world use.
-I wanted to create a fully functioning website for the band, with working links and page structures, similar to websites of currently active professional bands.
+I wanted to create a fully functioning website for the band, with working links and page structures, inspired by websites of currently active professional bands.
 
 ## Link to the website
 
@@ -33,23 +33,23 @@ Using the Balsamiq desktop app I created the following wireframes as a guideline
 
 Index/Home page
  
- <img src="assets/wireframes/index - mobile.PNG" width=120>
+ <img src="assets/wireframes/index - mobile.PNG" width=200>
 
 Music page
  
- <img src="assets/wireframes/music - mobile.PNG" width=120>
+ <img src="assets/wireframes/music - mobile.PNG" width=200>
 
 Bio page
  
- <img src="assets/wireframes/bio - mobile.PNG" width=120>
+ <img src="assets/wireframes/bio - mobile.PNG" width=200>
 
 Store page
  
- <img src="assets/wireframes/store - mobile.PNG" width=120>
+ <img src="assets/wireframes/store - mobile.PNG" width=200>
 
 General desktop layout
  
- <img src="assets/wireframes/desktop.PNG" width=120>
+ <img src="assets/wireframes/desktop.PNG" width=200>
 
 # Features
 
@@ -58,31 +58,31 @@ General desktop layout
 ### **General**
 
 * Feature 1: Cookies warning - In line with the recent focus on GDPR and the fact that almost every website you visit flashes a cookies warning nowadays, I decided to include one on the top of the home page. It links to a real privacy policy which I generated online.
-* Feature 2: Navbar burger icon - This is positioned in the top-right of all pages and toggles a vertical list open and closed. I experimented with leaving it open and displaying horizontally at larger viewports but decided to implement a larger menu further down the page instead.
+* Feature 2: Navbar burger icon - This is positioned in the top-right of all pages and toggles a vertical list open and closed. I experimented with leaving it open and displaying horizontally at larger viewports but decided to implement a larger menu bar further down the page instead.
 * Feature 3: Menu bar: On larger viewports a horizontal menu bar appears for ease of access to the different website pages. There are hover transition and colour effects on the items and Font Awesome icons for each.
 * Feature 4: Band logo transition - The main band logo has a fade-in transition.
 * Feature 5: Contact form - The left section of the footer contains a contact button which opens a modal.
-* Feature 6: Social Media links - The middle section of the footer contains Font Awesome icons with working links to the real band Facebook and Twitter accounts, and to the band hashtag on Youtube and instagram. There is a colour change hover effect on the icons.
+* Feature 6: Social Media links - The middle section of the footer contains Font Awesome icons with working links to the real band Facebook and Twitter accounts, and to the band hashtag on Youtube and Instagram. There is a colour change hover effect on the icons.
 * Feature 7: Stream Music links - The right section of the footer contains Font Awesome icons with working links to the band's music on Spotify, Apple Music, Bandcamp and SoundCloud. There is a colour change hover effect on the icons.
 
 ### **Home page**
 
-* Feature 8: Carousel - The home page displays a carousel slideshow which automatically transitions images every 5 seconds. There are also direction control buttons to transition the images. On smaller viewports the carousel is hidden as I felt it was unnecessary and cluttering the screen.
+* Feature 8: Carousel - The home page displays a carousel slideshow which automatically transitions images every 5 seconds. There are also direction control buttons to transition the images. On smaller viewports the carousel is hidden by a CSS Media Query as I felt it was unnecessary and cluttering the screen.
 * Feature 9: Video - Beneath the carousel there is a youtube embed of the most recent of the band's releases.
 
 ### **Music page**
 
-* Feature 10: Bandcamp embeds - The music page has bandcamp embeds of all the bands releases displayed vertically in reverse chronological order. The user can stream or share music directly from these, or access the band's bandcamp page externally. I experimented with displaying the embeds in columns and rows but preferred the vertical presentation as felt it  focussed atttention on each individual release.
+* Feature 10: Bandcamp embeds - The music page has bandcamp embeds of all the bands releases displayed vertically in reverse chronological order. The user can stream or share music directly from these, or access the band's bandcamp page externally. I experimented with an opaque background image and displaying the embeds in columns and rows but preferred the vertical presentation and black background as I felt it focussed atttention on each individual release.
 
 ### **Bio page**
 
 * Feature 11: About section - This contains a brief history of the band and a working link to the band's record label website.
-* Feature 12: Discography section - This contains information about the band's releases displayed as a timeline. When a release title is hovered over, the artwork of the release appears. This effect is disabled on smaller viewports. The release dates are hidden on smaller viewports as they were cluttering the display.
+* Feature 12: Discography section - This contains information about the band's releases displayed as a timeline. When a release title is hovered over, the artwork of the release appears. This effect is disabled on smaller viewports via a CSS Media Query. The release dates are hidden on smaller viewports as they were cluttering the display.
 * Feature 13: Review section - This contains excerpts from published reviews of the band.
 
 ### **Store page**
 
-* Feature 14: Big Cartel links: This page displays images of band merchandise which is available to purchase from their big cartel webstore. They display horizontally on larger viewports and vertically on smaller viewports. There is a hover opacity effect on each image. I experimented with embedding the big cartel pages but they did not display well so decided images with external links was a better option.
+* Feature 14: Big Cartel links: This page displays images of band merchandise which is available to purchase from their big cartel webstore. They display horizontally on larger viewports and vertically on smaller viewports. There is a hover opacity effect on each image. I experimented with embedding the big cartel pages via iFrames but they did not display well so decided images with external links was a better option.
 
 
 ## Features Left to Implement
@@ -90,17 +90,17 @@ General desktop layout
 * The ability to record users answers to the cookie disclaimer needs to be added. Currently the warning can be closed with the 'x' in the corner only.
 * The contact form needs to be hooked up on the backend.
 
+
 # Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 ## HTML5 - https://www.w3.org/TR/html52/
-HTML5 was used for the general structuring and positioning on the website
+HTML5 was used for the general structuring and positioning on the website.
 
 ## CSS3 - https://www.w3.org/Style/CSS/Overview.en.html
-CSS3 was used to style the website
+CSS3 was used to style the website.
 
 ## Bootstrap - https://www.bootstrapcdn.com/
-Bootstrap v4.3.1 was used for mobile-first design and responsiveness, styling, grid layouts and navigation
+Bootstrap v4.3.1 was used for mobile-first design and responsiveness, styling, grid layouts and navigation.
 
 ## JQuery - https://jquery.com/
 JQuery was used to deploy javascript functionality with bootstrap.
@@ -138,7 +138,9 @@ I asked friends to check responsiveness on:
 * **Discography Timeline** - The vertical line broke out into columns and displayed very poorly on medium and large viewports. This was fixed by adding a blank, empty column to the right of the discography column. This served to keep the discography column from expanding too far with responsiveness.
 
 # Deployment
- The finished website is deployed and can be viewed via Github:
+ First I setup a local repository using Git. Then I setup a remote repository on Github. As I was building the project I was regularly saving my work using the Git Add functionality and tracking my changes with descriptive messages using the Git Commit functionality. I used Git Push to send to the remote repository. I was able to pick up exactly where I left off by clicking on the Gitpod button to access my workspace on the remote repository. When the project was finished I accessed the settings menu and activated GitHub Pages.
+ 
+ The finished website is deployed and can be viewed via Github pages:
  https://menacethedenis.github.io/CI-milestone-one-OFAC_website/
 
 # Credits
@@ -146,12 +148,16 @@ I asked friends to check responsiveness on:
 All images, music and text are copyright and used with the permission of Only Fumes & Corpses and Lockjaw Records. Except the reviews which are reproduced with permission from the authors.
 
 Some websites I used for design inspiration and research included:
-http://epitaph.com/artists/defeater/bio
-https://www.deftones.com/
-http://www.bitchfalcon.com/
-https://www.emmaruthrundle.com/
-https://www.daughtersofficial.com/
+* http://epitaph.com/artists/defeater/bio
+* https://www.deftones.com/
+* http://www.bitchfalcon.com/
+* https://www.emmaruthrundle.com/
+* https://www.daughtersofficial.com/
+
+The privacy policy was generated at:
+* https://www.privacypolicygenerator.info/
 
 ## Acknowledgements
 I would like to thank the tutors at the Code Institute and my mentor Spencer Barriball for their outstanding support, advice and encouragement. 
-Thanks also to the Code Institute student care team for  keeping me on track, checking in and always being so understanding, empathetic and helpful.
+
+Thanks also to the Code Institute student care team for keeping me on track, checking in and always being so understanding, empathetic and helpful.
